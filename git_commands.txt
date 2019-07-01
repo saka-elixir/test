@@ -1,0 +1,3 @@
+git revert "commid-id"
+	Reverts the commit you pushed to the server
+	After revert, we need to push the changes

@@ -1,10 +1,14 @@
-let
+
+Following is the list of famous command and it's description:
+
+>>> toilet
         -f term -> To make font small
         -F Border -> To create a border
         --gay -> To color the font
+	Sample Command: echo "$(date '+%D %T - AMUTHAN' | toilet -f term -F border --gay)"
 
-echo command
+>>> echo
         -n -> removes auto line break
-        -e -> enables back splash
-        echo -ne "hello\r"; sleep 0.5; echo -ne "world"
+        -e -> enable interpretation of backslash escapes
+        echo -ne "hello\r"; sleep 0.5; echo -ne "world" -> Prints hello and after 0.5 seconds prints world
 
