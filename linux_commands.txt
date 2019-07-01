@@ -1,0 +1,10 @@
+let
+        -f term -> To make font small
+        -F Border -> To create a border
+        --gay -> To color the font
+
+echo command
+        -n -> removes auto line break
+        -e -> enables back splash
+        echo -ne "hello\r"; sleep 0.5; echo -ne "world"
+
